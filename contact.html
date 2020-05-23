@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+      <title>Curso en Climaterio</title>
+      <link rel="icon" href="images/icon.png">
+      <script src="javascript/index.js"></script>
+      <link rel="stylesheet" href="styles/index.css">
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <!-- Para iconos de materialize -->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   </head>
+   <body>
+      <div>
+      <!-- Navbar goes here -->
+      <header >
+         <nav>
+            <div class="nav-wrapper">
+               <!--<a href="#" class="brand-logo right"><img id="icon" src="imagenes/mifavicon.ico"></a>-->
+               <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons black-text text-darken-4">menu</i></a>
+               <ul class="right hide-on-med-and-down">
+                  <li>
+                     <a class="li_cab" href="!#"></a>
+                  </li>
+                  <li><a class="li_cab" href="index.html">Inicio</a></li>
+                  <li><a class="li_cab" href="inscribete.html">Inscríbete</a></li>
+                  <li><a class="li_cab" href="temas.html">Temas</a></li>
+                  <li><a class="li_cab" href="eva.html">Evaluación</a></li>
+                  <li><a class="li_cab" href="contact.html">Contacto</a></li>
+                  <li>
+                     <p class="li_cab" id="usuario"></p>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+         <ul class="sidenav" id="mobile-demo">
+            <li>
+               <a class="li_cab" href="!#"></a>
+            </li>
+            <li><a class="li_cab" href="index.html">Inicio</a></li>
+            <li><a class="li_cab" href="inscribete.html">Inscríbete</a></li>
+            <li><a class="li_cab" href="temas.html">Temas</a></li>
+            <li><a class="li_cab" href="eva.html">Evaluación</a></li>
+            <li><a class="li_cab" href="contact.html">Contacto</a></li>
+            <li>
+               <p class="li_cab" id="usuario"></p>
+            </li>
+         </ul>
+         </nav>
+      </header>
+      <!-- Page Layout here -->
+      <div>
+         <div class="pequeñito">
+            <!------Formulario de contacto -------------->
+            <h1 id="h1_contact" tabindex="0" class="h2_sug">¿Alguna duda o sugerencia?¡Contacta con nosotros!</h1>
+            <form class="form_index" action="index.html" method="get">
+               <input type="text" name="lname" placeholder="Escribir email" required maxlength="20" aria-required="true">
+               <br>
+               <br>
+               <span id="count" aria-live="polite"></span>
+               <textarea name="mensaje" rows="10" cols="30" placeholder="Escribe aquí tus dudas o sugerencias." aria-label="Escribe aqui tus dudas o sugerencias"></textarea>
+               <br>
+               <br> Selecciona el tema de la consulta:
+               <br>
+               <select class="browser-default" aria-expanded=true>
+                  <option value="" disabled selected>Seleccionar</option>
+                  <option aria-label="Dudas" value="2">Dudas</option>
+                  <option aria-label="Sugerencias" value="3">Sugerencias</option>
+               </select>
+               <br>
+               <p>
+               <p>
+                  <label>
+                  <input type="checkbox" required/>
+                  <span role="checkbox" aria-checked="false" aria-required="true" onclick="changeCheckbox()" onKeyPress="changeCheckbox()" aria-labelledby="chk1-label" required>He leído y acepto la política de privacidad y cookies</span>
+                  </label>
+                  <button aria-label="Confirmar y enviar" type="submit">Enviar</button>
+               </p>
+            </form>
+         </div>
+         <br>
+         <br>
+         <p class="ocultar_la_mierda">
+            En este curso aprenderás a manejar y prevenir los síntomas de la menopausia y el climaterio a través de la adquisición de conocimientos impartidos por enfermeras del Centro de Salud de Tacoronte en reuniones semanales todos los martes. En ellas, no solo se impartirán 
+         <footer tabindex="0">
+            <br> Información de contacto:
+            <address>Carr. Gral. del Nte., 5, 38350 Tacoronte, Santa Cruz de Tenerife<br>Número de teléfono: 922 47 40 53<br></address>
+            Página web hecha por: Carmen Castro González.
+            <br>
+            <a href="mapa_web.html">Mapa Web</a>
+            <p>&copy&nbspCopyright JCG - 2020</p>
+            <br>
+         </footer>
+      </div>
+   </body>
+</html>

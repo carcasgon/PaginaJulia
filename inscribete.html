@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Curso en Climaterio</title>
+
+    <link rel="icon" href="images/icon.png">
+
+    <script src="javascript/index.js"></script>
+
+    <link rel="stylesheet" href="styles/index.css">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Para iconos de materialize -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+    <div>
+        <!-- Navbar goes here -->
+        <header >
+            <nav>
+                <div class="nav-wrapper">
+                    <!--<a href="#" class="brand-logo right"><img id="icon" src="imagenes/mifavicon.ico"></a>-->
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons black-text text-darken-4">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a class="li_cab" href="!#"></a>
+                        </li>
+                        <li><a class="li_cab" href="index.html">Inicio</a></li>
+                        <li><a class="li_cab" href="inscribete.html">Inscríbete</a></li>
+                        <li><a class="li_cab" href="temas.html">Temas</a></li>
+                        <li><a class="li_cab" href="eva.html">Evaluación</a></li>
+                        <li><a class="li_cab" href="contact.html">Contacto</a></li>
+                        <li>
+                            <p class="li_cab" id="usuario"></p>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    
+            <ul class="sidenav" id="mobile-demo">
+                <li>
+                    <a class="li_cab" href="!#"></a>
+                </li>
+                    <li><a class="li_cab" href="index.html">Inicio</a></li>
+                    <li><a class="li_cab" href="inscribete.html">Inscríbete</a></li>
+                    <li><a class="li_cab" href="temas.html">Temas</a></li>
+                    <li><a class="li_cab" href="eva.html">Evaluación</a></li>
+                    <li><a class="li_cab" href="contact.html">Contacto</a></li>
+                <li>
+                    <p class="li_cab" id="usuario"></p>
+                </li>
+            </ul>
+            </nav>
+        </header>
+    
+    <!-- Page Layout here -->
+
+    <div>
+        
+        <div class="pequeñito">
+
+            <p id="Aviso"></p>
+            <h1 class="h1_ins">Inscribirse</h1>
+            <form id="Registro" name="Registro" class="Registro">
+
+                <label class="label_inscribirse" for="nombre_usuario">Nombre y apellidos
+                    <br>
+                    <input id="nombre_usuario" type="text" name="nombre_usuario" aria-labelledby="nombre_usuario" aria-required="true" aria-invalid="false" aria-describedby="Aviso" required>
+                </label>
+                <br>
+
+                <label class="label_inscribirse" for="nombre_usuario">Edad
+                    <br>
+                    <input id="nombre_usuario" type="text" name="nombre_usuario" aria-labelledby="nombre_usuario" aria-required="true" aria-invalid="false" aria-describedby="Aviso" required>
+                </label>
+                <br>
+
+                <label class="label_inscribirse" for="contraseña_usuario">CIP
+                    <br>
+                    <input id="contraseña_usuario" type="text" name="contraseña_usuario" aria-labelledby="contraseña_usuario" aria-required="true" aria-invalid="false" aria-describedby="Aviso" required/>
+                </label>
+                <br>
+
+                <label class="label_inscribirse" for="contraseña_usuario">Dirección de residencia
+                    <br>
+                    <input id="contraseña_usuario" type="text" name="contraseña_usuario" aria-labelledby="contraseña_usuario" aria-required="true" aria-invalid="false" aria-describedby="Aviso" required/>
+                </label>
+                <br>
+
+                <label class="label_inscribirse" for="contraseña_usuario">Mi centro de salud es
+                    <br>
+                    <input id="contraseña_usuario" type="text" name="contraseña_usuario" aria-labelledby="contraseña_usuario" aria-required="true" aria-invalid="false" aria-describedby="Aviso" required/>
+                </label>
+                <br>
+
+                <label class="label_inscribirse" for="contraseña_usuario">Teléfono
+                    <br>
+                    <input id="contraseña_usuario" type="text" name="contraseña_usuario" aria-labelledby="contraseña_usuario" aria-required="true" aria-invalid="false" aria-describedby="Aviso" required/>
+                </label>
+                <br>
+
+                <label class="label_inscribirse" for="email_usuario">Correo electrónico
+                    <br>
+                    <input type="email" name="email_usuario" id="email_usuario" aria-labelledby="email_usuario" aria-required="true" aria-invalid="false" aria-describedby="Aviso" required>
+                </label>
+                <br/>
+
+                <p>
+                    <button id="enviar" name="enviar" type="button" onclick="storeData()">Enviar</button>
+                    <button id="reset" name="reset" type="reset">Borrar</button>
+                </p>
+
+            </form>
+        </div>
+        <br>
+        <br>
+        <p class="ocultar_la_mierda">
+            En este curso aprenderás a manejar y prevenir los síntomas de la menopausia y el climaterio a través de la adquisición de conocimientos impartidos por enfermeras del Centro de Salud de Tacoronte en reuniones semanales todos los martes. En ellas, no solo se impartirán 
+
+        <footer tabindex="0">
+            <br> Información de contacto:
+            <address>Carr. Gral. del Nte., 5, 38350 Tacoronte, Santa Cruz de Tenerife<br>Número de teléfono: 922 47 40 53<br></address> Página web hecha por: Carmen Castro González.
+            <br>
+            <a href="mapa_web.html">Mapa Web</a>
+            <p>&copy&nbspCopyright JCG - 2020</p>
+            <br>
+        </footer>
+
+    </div>
+</body>
+
+</html>
